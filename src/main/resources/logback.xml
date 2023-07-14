@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<timestamp key="byDay" datePattern="yyyyMMdd'T'HHmmss" />
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="SAVE-TO-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    	<file>${payment.reports.log.path}/payment_reports.log</file>
+    	<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        	<Pattern>%d{MM-dd-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n</Pattern>
+    	</encoder>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        	<fileNamePattern>${payment.reports.log.path}/payment_reports_%d{MM-dd-yyyy}.log</fileNamePattern>
+        	<maxHistory>10</maxHistory>
+        	<totalSizeCap>100MB</totalSizeCap>
+    	</rollingPolicy>
+	</appender>
+
+	<root level="info">
+		<appender-ref ref="SAVE-TO-FILE"/>
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>

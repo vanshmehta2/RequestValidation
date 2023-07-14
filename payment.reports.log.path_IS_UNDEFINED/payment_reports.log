@@ -1,0 +1,155 @@
+07-07-2023 15:58:22.980 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+07-07-2023 15:58:23.079 [main] INFO  com.example.demo.Application.logStarting - Starting Application using Java 17.0.7 with PID 3792 (C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation\target\classes started by vansh in C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation)
+07-07-2023 15:58:23.081 [main] INFO  com.example.demo.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-07-2023 15:58:24.375 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-07-2023 15:58:24.476 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interfaces.
+07-07-2023 15:58:25.188 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-07-2023 15:58:25.201 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:58:25.204 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2023 15:58:25.205 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+07-07-2023 15:58:25.369 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-07-2023 15:58:25.370 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2202 ms
+07-07-2023 15:58:25.844 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-07-2023 15:58:25.994 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.2.Final
+07-07-2023 15:58:25.999 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+07-07-2023 15:58:26.268 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 15:58:26.597 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-07-2023 15:58:26.647 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-07-2023 15:58:27.210 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c4aae33e-65fa-4a65-a805-89184af769ac
+07-07-2023 15:58:27.214 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-07-2023 15:58:27.297 [main] INFO  org.hibernate.orm.dialect.logSelectedDialect - HHH035001: Using dialect: org.hibernate.dialect.SQLServerDialect, version: 16.0
+07-07-2023 15:58:27.737 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 15:58:28.898 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-07-2023 15:58:29.257 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 15:58:29.709 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-07-2023 15:58:30.169 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:58:30.176 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+07-07-2023 15:58:30.179 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 15:58:30.182 [main] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-07-2023 15:58:30.190 [main] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-07-2023 15:58:30.193 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:58:30.193 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-07-2023 15:58:30.201 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:58:30.202 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:58:30.213 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+07-07-2023 15:58:30.267 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+07-07-2023 15:58:53.170 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+07-07-2023 15:58:53.252 [main] INFO  com.example.demo.Application.logStarting - Starting Application using Java 17.0.7 with PID 2592 (C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation\target\classes started by vansh in C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation)
+07-07-2023 15:58:53.254 [main] INFO  com.example.demo.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-07-2023 15:58:54.294 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-07-2023 15:58:54.382 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+07-07-2023 15:58:55.043 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-07-2023 15:58:55.058 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:58:55.060 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2023 15:58:55.061 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+07-07-2023 15:58:55.221 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-07-2023 15:58:55.221 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1888 ms
+07-07-2023 15:58:55.491 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-07-2023 15:58:55.579 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.2.Final
+07-07-2023 15:58:55.583 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+07-07-2023 15:58:55.772 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 15:58:55.987 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-07-2023 15:58:56.012 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-07-2023 15:58:56.576 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 21f965d6-efe7-4744-b24f-0c937ea04c78
+07-07-2023 15:58:56.580 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-07-2023 15:58:56.622 [main] INFO  org.hibernate.orm.dialect.logSelectedDialect - HHH035001: Using dialect: org.hibernate.dialect.SQLServerDialect, version: 16.0
+07-07-2023 15:58:56.962 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 15:58:57.888 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-07-2023 15:58:58.236 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 15:58:58.592 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-07-2023 15:58:59.024 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:58:59.071 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+07-07-2023 15:58:59.085 [main] INFO  com.example.demo.Application.logStarted - Started Application in 6.432 seconds (process running for 7.997)
+07-07-2023 15:59:07.241 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+07-07-2023 15:59:07.265 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:59:07.266 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-07-2023 15:59:07.273 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:59:07.276 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8080"]
+07-07-2023 15:59:07.280 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 15:59:07.283 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-07-2023 15:59:07.292 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-07-2023 16:08:04.564 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+07-07-2023 16:08:04.632 [main] INFO  com.example.demo.Application.logStarting - Starting Application using Java 17.0.7 with PID 18948 (C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation\target\classes started by vansh in C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation)
+07-07-2023 16:08:04.634 [main] INFO  com.example.demo.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-07-2023 16:08:05.781 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-07-2023 16:08:05.867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+07-07-2023 16:08:06.662 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-07-2023 16:08:06.684 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-07-2023 16:08:06.685 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2023 16:08:06.686 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+07-07-2023 16:08:06.898 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-07-2023 16:08:06.898 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2172 ms
+07-07-2023 16:08:07.291 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-07-2023 16:08:07.434 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.2.Final
+07-07-2023 16:08:07.439 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+07-07-2023 16:08:07.753 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 16:08:08.085 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-07-2023 16:08:08.145 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-07-2023 16:08:08.763 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: b19e9972-b6a6-47db-be5e-6ec45ac29549
+07-07-2023 16:08:08.768 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-07-2023 16:08:08.889 [main] INFO  org.hibernate.orm.dialect.logSelectedDialect - HHH035001: Using dialect: org.hibernate.dialect.SQLServerDialect, version: 16.0
+07-07-2023 16:08:09.362 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 16:08:10.465 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-07-2023 16:08:10.871 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 16:08:11.262 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-07-2023 16:08:11.706 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-07-2023 16:08:11.770 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+07-07-2023 16:08:11.792 [main] INFO  com.example.demo.Application.logStarted - Started Application in 7.709 seconds (process running for 9.618)
+07-07-2023 16:08:17.169 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+07-07-2023 16:08:17.195 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8080"]
+07-07-2023 16:08:17.195 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-07-2023 16:08:17.203 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+07-07-2023 16:08:17.206 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8080"]
+07-07-2023 16:08:17.209 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 16:08:17.213 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-07-2023 16:08:17.222 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-07-2023 16:18:54.057 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+07-07-2023 16:18:54.135 [main] INFO  com.example.demo.Application.logStarting - Starting Application using Java 17.0.7 with PID 18372 (C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation\target\classes started by vansh in C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation)
+07-07-2023 16:18:54.137 [main] INFO  com.example.demo.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-07-2023 16:18:55.297 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-07-2023 16:18:55.377 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+07-07-2023 16:18:56.401 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-07-2023 16:18:56.417 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-07-2023 16:18:56.418 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2023 16:18:56.419 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+07-07-2023 16:18:56.576 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-07-2023 16:18:56.577 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2372 ms
+07-07-2023 16:18:56.882 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-07-2023 16:18:56.967 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.2.Final
+07-07-2023 16:18:56.971 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+07-07-2023 16:18:57.178 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 16:18:57.416 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-07-2023 16:18:57.451 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-07-2023 16:18:58.168 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 6c51c663-7471-4601-a91e-6cadeb40ae4a
+07-07-2023 16:18:58.172 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-07-2023 16:18:58.233 [main] INFO  org.hibernate.orm.dialect.logSelectedDialect - HHH035001: Using dialect: org.hibernate.dialect.SQLServerDialect, version: 16.0
+07-07-2023 16:18:58.614 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-07-2023 16:18:59.791 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-07-2023 16:19:00.190 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 16:19:00.611 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-07-2023 16:19:01.087 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-07-2023 16:19:01.126 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+07-07-2023 16:19:01.142 [main] INFO  com.example.demo.Application.logStarted - Started Application in 7.563 seconds (process running for 9.168)
+07-07-2023 17:31:30.771 [RMI TCP Connection(82)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+07-07-2023 17:31:35.404 [RMI TCP Connection(82)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8080"]
+07-07-2023 17:31:35.407 [RMI TCP Connection(82)-127.0.0.1] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-07-2023 17:31:36.424 [RMI TCP Connection(82)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+07-07-2023 17:31:36.593 [RMI TCP Connection(82)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8080"]
+07-07-2023 17:31:36.836 [RMI TCP Connection(82)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-07-2023 17:31:37.409 [RMI TCP Connection(82)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-07-2023 17:31:37.668 [RMI TCP Connection(82)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

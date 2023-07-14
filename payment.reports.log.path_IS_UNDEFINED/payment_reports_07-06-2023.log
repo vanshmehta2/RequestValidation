@@ -1,0 +1,77 @@
+07-06-2023 16:47:15.304 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+07-06-2023 16:47:15.409 [main] INFO  com.example.demo.Application.logStarting - Starting Application using Java 17.0.7 with PID 14304 (C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation\target\classes started by vansh in C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation)
+07-06-2023 16:47:15.412 [main] INFO  com.example.demo.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-06-2023 16:47:16.682 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-06-2023 16:47:16.825 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+07-06-2023 16:47:17.730 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-06-2023 16:47:17.749 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-06-2023 16:47:17.751 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-06-2023 16:47:17.752 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+07-06-2023 16:47:18.093 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-06-2023 16:47:18.094 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2610 ms
+07-06-2023 16:47:18.441 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-06-2023 16:47:18.519 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.2.Final
+07-06-2023 16:47:18.522 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+07-06-2023 16:47:18.762 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-06-2023 16:47:18.974 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-06-2023 16:47:19.002 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-06-2023 16:47:19.948 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 49222019-1e46-4205-a3a6-f2d9c4ce9bce
+07-06-2023 16:47:19.974 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-06-2023 16:47:20.027 [main] INFO  org.hibernate.orm.dialect.logSelectedDialect - HHH035001: Using dialect: org.hibernate.dialect.SQLServerDialect, version: 16.0
+07-06-2023 16:47:20.422 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-06-2023 16:47:21.445 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-06-2023 16:47:21.886 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-06-2023 16:47:22.247 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-06-2023 16:47:22.764 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-06-2023 16:47:22.773 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+07-06-2023 16:47:22.779 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-06-2023 16:47:22.784 [main] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-06-2023 16:47:22.846 [main] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-06-2023 16:47:22.849 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8080"]
+07-06-2023 16:47:22.850 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-06-2023 16:47:22.860 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+07-06-2023 16:47:22.864 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8080"]
+07-06-2023 16:47:22.879 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+07-06-2023 16:47:22.906 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+07-06-2023 16:47:41.784 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.0.Final
+07-06-2023 16:47:41.856 [main] INFO  com.example.demo.Application.logStarting - Starting Application using Java 17.0.7 with PID 248 (C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation\target\classes started by vansh in C:\Users\vansh\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\RequestValidation)
+07-06-2023 16:47:41.858 [main] INFO  com.example.demo.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-06-2023 16:47:42.929 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-06-2023 16:47:43.076 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interfaces.
+07-06-2023 16:47:43.999 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-06-2023 16:47:44.017 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-06-2023 16:47:44.018 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-06-2023 16:47:44.019 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+07-06-2023 16:47:44.205 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-06-2023 16:47:44.205 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2277 ms
+07-06-2023 16:47:44.444 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-06-2023 16:47:44.525 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.2.Final
+07-06-2023 16:47:44.529 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+07-06-2023 16:47:44.713 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-06-2023 16:47:44.900 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-06-2023 16:47:44.924 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-06-2023 16:47:45.551 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 40cac32b-b441-426e-8896-d3ded9094fe5
+07-06-2023 16:47:45.555 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-06-2023 16:47:45.603 [main] INFO  org.hibernate.orm.dialect.logSelectedDialect - HHH035001: Using dialect: org.hibernate.dialect.SQLServerDialect, version: 16.0
+07-06-2023 16:47:45.930 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+07-06-2023 16:47:46.888 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-06-2023 16:47:47.218 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-06-2023 16:47:47.594 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-06-2023 16:47:48.056 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-06-2023 16:47:48.117 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+07-06-2023 16:47:48.142 [main] INFO  com.example.demo.Application.logStarted - Started Application in 6.806 seconds (process running for 8.564)
